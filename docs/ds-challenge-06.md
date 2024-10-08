@@ -29,7 +29,7 @@ Similarly for a pull request branch you would add: `/pull/<pull_request_id>`.
 * Use the Dev Spaces fqdn to create a URL string that will load the workspace from:
   
   ```http
-  https://github.com/che-samples/cpp-hello-world
+  https://github.com/ocp-devspaces-gamification/ds-bonus-cpp.git
   ```
 
 * Test your URL in a new browser tab.  You will see a new workspace instantiated from scratch implementing the preferences configured in the git repository
@@ -62,7 +62,5 @@ Similarly for a pull request branch you would add: `/pull/<pull_request_id>`.
 ### Resources
 
 * [User guide | Red Hat Product Documentation](https://docs.redhat.com/en/documentation/red_hat_openshift_dev_spaces/3.16/html-single/user_guide/index#starting-a-workspace-from-a-git-repository-url)
-
-
 
 [back](../README.md)
