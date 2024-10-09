@@ -56,20 +56,58 @@ commands:
 
 #### Using this information:
 
-* Inspect the parent devfile from  from:
+* To start delete the last workspace, and recreate it using the single URL method as before 
+* In another browser tab navigate to the git URL we used for the workspace
 
 ```http
-  http://devfile-srvr-devfile-srvr.apps-crc.testing/quarkus-quickstart.devfile.yaml
+  https://github.com/ocp-devspaces-gamification/ds-bonus-cpp
 ```
 
-* ### Success Criteria
+* Navigate to `devfile.yaml` and get the raw content URL
+* Switching back to the Dev Spaces Workspace, open the `devfile.yaml` file
+* Delete everything in the file except:
+  
+  ```yaml
+  schemaVersion: 2.2.2
+  metadata:
+    name: cpp
+  ```
+* Let's change the name to something different and add a version tag
+  
+  ```yaml
+  schemaVersion: 2.2.2
+  metadata:
+    name: my_cpp
+    version: 1.0.0
+  ```
+* Add a parent reference to the unmodified copy in the git repository
+  
+  *(Hint: use the raw content URL you noted earlier)*
+* Add some new commands (refer to parent devfile for reference):
+  * Add a say hello command 
+  
+  * Add a build clean command
+* Reload the workspace from the local devfile:
+  * Click in the bottom-left corner of the workspace
+  
+  * This will produce a menu with the option to reload from local devfile
+    
+    ![](.img/workspace_menu.png)
+    
+    Note that if there is an issue with your devfile then the workspace will fail to restart.  If that happens, on the workspaces view you can select to start with default devfile
+    
+    <img title="" src=".img/restart_failed.png" alt="" data-align="inline" width="612">
 
-* 
+### Success Criteria
 
-* 
+- Workspace restarts successfully
 
 ### Resources
 
 * [Referring to a parent devfile - devfile.io](https://devfile.io/docs/2.3.0/referring-to-a-parent-devfile)
 
-[back](../README.md)
+---
+
+
+
+                                                                                                                                                [Back](../README.md)

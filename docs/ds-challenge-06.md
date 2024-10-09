@@ -63,4 +63,8 @@ Similarly for a pull request branch you would add: `/pull/<pull_request_id>`.
 
 * [User guide | Red Hat Product Documentation](https://docs.redhat.com/en/documentation/red_hat_openshift_dev_spaces/3.16/html-single/user_guide/index#starting-a-workspace-from-a-git-repository-url)
 
-[back](../README.md)
+---
+
+
+
+                                                                                                                                                [Back](../README.md)
