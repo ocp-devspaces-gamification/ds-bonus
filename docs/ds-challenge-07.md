@@ -64,7 +64,9 @@ commands:
 ```
 
 * Navigate to `devfile.yaml` and get the raw content URL
+
 * Switching back to the Dev Spaces Workspace, open the `devfile.yaml` file
+
 * Delete everything in the file except:
   
   ```yaml
@@ -72,6 +74,7 @@ commands:
   metadata:
     name: cpp
   ```
+
 * Let's change the name to something different and add a version tag
   
   ```yaml
@@ -80,14 +83,19 @@ commands:
     name: my_cpp
     version: 1.0.0
   ```
+
 * Add a parent reference to the unmodified copy in the git repository
   
   *(Hint: use the raw content URL you noted earlier)*
+
 * Add some new commands (refer to parent devfile for reference):
+  
   * Add a say hello command 
   
   * Add a build clean command
+
 * Reload the workspace from the local devfile:
+  
   * Click in the bottom-left corner of the workspace
   
   * This will produce a menu with the option to reload from local devfile
@@ -101,6 +109,8 @@ commands:
 ### Success Criteria
 
 - Workspace restarts successfully
+- All commands from local and parent devfile are resolved as tasks
+- All tasks are executable 
 
 ### Resources
 
@@ -108,6 +118,4 @@ commands:
 
 ---
 
-
-
-                                                                                                                                                [Back](../README.md)
+[Home](../README.md)

@@ -65,6 +65,4 @@ Similarly for a pull request branch you would add: `/pull/<pull_request_id>`.
 
 ---
 
-
-
-                                                                                                                                                [Back](../README.md)
+[Home](../README.md)
