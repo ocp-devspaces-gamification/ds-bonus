@@ -29,7 +29,7 @@ Similarly for a pull request branch you would add: `/pull/<pull_request_id>`.
 * Use the Dev Spaces fqdn to create a URL string that will load the workspace from:
   
   ```http
-  https://github.com/ocp-devspaces-gamification/ds-bonus-cpp.git
+  https://git.delta.com/dx/devspaces/ocp-devspaces-gamification/ds-bonus-cpp.git
   ```
 
 * Test your URL in a new browser tab.  You will see a new workspace instantiated from scratch implementing the preferences configured in the git repository

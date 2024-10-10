@@ -60,7 +60,7 @@ commands:
 * In another browser tab navigate to the git URL we used for the workspace
 
 ```http
-  https://github.com/ocp-devspaces-gamification/ds-bonus-cpp
+https://git.delta.com/dx/devspaces/ocp-devspaces-gamification/ds-bonus-cpp
 ```
 
 * Navigate to `devfile.yaml` and get the raw content URL
