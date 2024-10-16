@@ -63,7 +63,10 @@ commands:
 https://git.delta.com/dx/devspaces/ocp-devspaces-gamification/ds-bonus-cpp
 ```
 
-* Navigate to `devfile.yaml` and get the raw content URL
+* For the parent `devfile.yaml` reference we will use the folowing URL:
+```http
+https://nginx-devfile-route-devspaces.apps.dl-rosa01-1d.5nzh.p1.openshiftapps.com/devfile.yaml
+```
 
 * Switching back to the Dev Spaces Workspace, open the `devfile.yaml` file
 
